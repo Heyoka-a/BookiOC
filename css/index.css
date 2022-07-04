@@ -55,4 +55,46 @@ header{
 
 .contain-searchbar-elements{
   display: flex;
+  width: 95%;
+  margin: auto;
+}
+
+.pin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(178, 178, 178);
+  border-radius: 8px 0 0 8px;
+}
+
+input::placeholder{
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  font-weight: bold;
+}
+
+button{
+  height: 40px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  background-color: #0165FB;
+  color: whitesmoke;
+  width: 80px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #3885f7;
+}
+
+/* end searchbar */
+
+.contain-filters{
+  width: 50%;
+}
+
+.filter-elements{
+  display: flex;
+  justify-content: space-evenly;
 }
